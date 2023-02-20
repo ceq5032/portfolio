@@ -1,52 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-
-<h> Gallery </h> 
+        <title> <h> Gallery </h> </title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
             
-        </title>
-        
-       
-    
-     
-            <style>
-* {
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 1px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-
+            .column {
+                float: left;
+                width: 33.33%;
+                padding: 1px;
+            }
+            
+            /* Clearfix (clear floats) */
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            
+            
             body {
                 background: #add8e6;
-            }
-        
-       
-</style>
-        </head>
-        <body>
-        
-   
-   
-               
-        <nav> <a href="aboutme.html"> About Me </a> <a href="gallery.html"> Gallery </a><a href="resume.html"> Resume </a></nav>
-            
-            
-            
-            
-            
+            }</style>
+    </head>
+    <body>
+        <nav>
+            <a href="aboutme.html"> About Me </a>
+            <a href="gallery.html"> Gallery </a>
+            <a href="resume.html"> Resume </a>
+        </nav>
         <div class="row">
             <div class="column">
                 <img src="images/chelsea7.jpg" alt="Chelsea" style="width:50%">
@@ -57,17 +41,7 @@
             <div class="column">
                 <img src="images/chelsea6.jpg" alt="Chelsea" style="width:50%">
             </div>
-            <div class="column">
-                <img src="images/chelsea2.heic" alt="Trees" style="width:50%">
-            </div>
-            <div class="column">
-                <img src="images/chelsea3.heic" alt="Fiery Red" style="width:50%">
-            </div>
-            <div class="column">
-                <img src="images/chelsea4.heic" alt="Tree" style="width:50%">
-            </div>
+          
         </div>
-       
     </body>
 </html>
-
